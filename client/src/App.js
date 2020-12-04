@@ -51,6 +51,8 @@ const login = e => {
     </div>
   )
 }
+
+// Login Component
 const Login = ({username, setUsername, login}) => {
   return (
     <form onSubmit={login}>
@@ -60,6 +62,7 @@ const Login = ({username, setUsername, login}) => {
   )
 }
 
+// Todos Component
 const Todos = ({todos, fetchTodos, name}) => {
   const styling = {
     display: 'flex',
